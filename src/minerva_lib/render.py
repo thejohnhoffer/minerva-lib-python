@@ -15,8 +15,8 @@ def composite_channel(target, image, color, range_min, range_max, out=None):
         target: Numpy array containing composition target image
         image: Numpy array of image to render and composite
         color: Color as r, g, b float array within 0, 1
-        range_min: Threshhold range minimum, float within 0, 1
-        range_max: Threshhold range maximum, float within 0, 1
+        range_min: Threshold range minimum, float within 0, 1
+        range_max: Threshold range maximum, float within 0, 1
         out: Optional output numpy array in which to place the result.
 
     Returns:
@@ -48,8 +48,8 @@ def composite_channels(channels):
             {
                 image: Numpy 2D image data of any type
                 color: Color as r, g, b float array within 0, 1
-                min: Threshhold range minimum, float within 0, 1
-                max: Threshhold range maximum, float within 0, 1
+                min: Threshold range minimum, float within 0, 1
+                max: Threshold range maximum, float within 0, 1
             }
 
     Returns:
